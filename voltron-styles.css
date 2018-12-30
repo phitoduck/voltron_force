@@ -1,0 +1,66 @@
+body{background:url(images/space.gif);}
+main{margin:50px auto;padding:50px;width:900px;background:rgba(255,255,255,.75);font-family:'Audiowide',cursive;box-sizing:border-box;}
+h1{margin:0;text-align:center;}
+h1,h2{font-family:'Orbitron',sans-serif;}
+figure{margin-top:20px;margin-bottom:20px;width:315px;float:right;}
+figcaption{text-align:center;font-size:75%;color:rgba(50,50,50,.75);}
+section {overflow: hidden;padding:40px;border-bottom:2px solid rgba(100,100,100,.8);}
+
+/*Additional styles may be added below this line
+================================================*/
+.slide-content {
+    position: relative;
+}
+
+.button {
+    width: 100px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.button:active {
+    background-color:red;
+}
+
+#forward_button {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+}
+
+#back_button {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+#counter {
+    background-color: lightgray;
+
+    position:absolute;
+    bottom:5px;
+    left: 390px;
+}
+
+.alt-pilot-button {
+    border: black 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.alt-pilot-button:active {
+    background-color: red;
+}
+
+#sven_button {
+    left: 0;
+}
+
+#allura_button {
+    left: 80px;
+}
